@@ -1,0 +1,11 @@
+# Exclude all CSV files
+*.csv
+
+# Exclude specific data directories
+data-cleaning/
+tableau-workbook/
+
+# Exclude Tableau temp files
+*.twbr
+*.twb~
+.DS_Store
