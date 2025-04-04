@@ -3,7 +3,7 @@ Analysis of ride volumes 2018-23 across 11 recording sites based on 1.2 million 
 
 ## Data Structure
 
-xxx
+![ERD Diagram for Leeds Cycling Analysis](visualizations/ERD-diagram.png)
 
 ## Methodology
 
