@@ -1,0 +1,10 @@
+# Exclude specific data directories
+data-cleaning/
+tableau-workbook/
+ERD-python-script/
+
+# Exclude Tableau temp files
+*.twbr
+*.twb~
+.DS_Store
+.Rproj.user

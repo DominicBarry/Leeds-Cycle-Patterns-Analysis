@@ -1,0 +1,114 @@
+# Data preparation and cleaning
+  
+Data source: https://datamillnorth.org/dataset/e1dmk/leeds-annual-cycle-growth
+
+A dataset containing cycle counts from 28 recorders located around the Leeds district. Prior to June 2024 the dataset included information from 13 additional recorders within the West Yorkshire district.
+
+At the time of analysis the available data covered the period April 2010 to September 2024.
+
+I used AI tools (Claude.ai) to accelerate my workflow while applying my domain knowledge and analytical thinking.
+
+## Data columns
+
+- Sdate - indicates the date and time the count was taken.
+- Cosit - site ID number which indicates the recorder location (see Counter Locations document below).
+- Period - length of time count was taken.
+- LaneNumber - Lane ID number which indicates the number of lanes.
+- LaneDescription - legacy description of the direction of the lane.
+- LaneDirection - the number of directions the lane or lanes go.
+- Direction - the direction of the lane.
+- Volume - the number of bicycles counted, if the number is negative the count has been discarded.
+- Flag Text - Additional information e.g. roadworks, holiday, etc
+
+## Preparation
+
+- Download 64 csv files the period Jan 2010 to Oct 2024
+- Concatenate csv files to combined_cycle_counts.csv (5801724 rows)
+- Filter out 13 additional recorders within the West Yorkshire district (1159580 rows, 19.99% of data)
+- Save filtered file as leeds_cycle_counts.csv (4642144 rows)
+- Duplicate & backup for reference
+
+## Data cleaning
+
+### Missing Data
+
+#### Recording completeness by year varies between 4 to 15 years 
+    - Issue : # of recording sites has changed from 1 in 2010 to 27 in 2024 (down from 28 in 2023)
+    - Severity: high
+    - Action:  Verify data recording completeness & identify a consistent set of recording sites over a date range
+
+#### LaneDescription & Flag Text
+    - Issue - missing 11% & 5% of values between 2010 to 2014
+    - Severity - low, not a key measure for the analysis
+    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these 
+
+### Format checks 
+
+- Sdate - dd/mm/yyyy mm:hh validated date time format
+- Cosit - validated against  supplied site list
+- Period - validated number format, 1 unique non null value
+- LaneNumber - validated number format, 4 unique non null values
+- LaneDescription - validated text format, 19 unique non null values
+- LaneDirection - validated number format, 4 unique non null values
+- DirectionDescription - validated text format, 9 unique non null values
+- Volume  - validated number format, 
+- Flag Text - validated text format, 35 unique non null values, categorical inconsistencies
+
+### Negative values
+
+- Issue -  Volume has 25,438 negative values (0.5480% of total records) distributed over 2010 to 2021, with majority in 14-16 & 18-20 periods
+- Severity - low
+- Action - delete
+
+### Outliers
+- Issue - Volume has ‘5641’ on 03/07/2014 22:00, next highest value is 415
+- Severity - low
+- Action - delete
+
+### Inconsistent category values
+
+#### LaneDescription 
+
+    - Issue - categorical inconsistencies which vary over time: Westbound, Eastbound, Southbound, Northbound, Cycle Path Southbound, Footpath Southbound, Footpath Northbound, Cycle Path Northbound, West 2, East 1, West 1, East 2, Eastbound, North Bound, South Bound, Cycle Path N, Footpath SB, Cycle Path S, Footpath NB 
+    - Severity - low
+    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+    
+#### LaneDirection
+    - Issue - categorical number value (1-4) which doesn’t consistently correspond to direction description values e.g. 1 can be east or west
+    - Severity - low
+    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+
+#### DirectionDescription
+    - Issue - 4 inconsistent categorical values “North West” vs “Northwest”
+    - Severity - low
+    - Action - correct to be consistent 
+
+#### Flag Text
+    - Issue - Multiple values which have changed over time
+    - Severity - as we are not looking at flow analysis it is low
+    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+
+### Duplicates
+
+- Issue - 19 exact duplicate rows found (0.0004%)
+- Severity - low
+- Action - delete duplicate rows
+
+## Actions Summary
+
+- Remove 19 exact duplicate rows
+- Delete rows with negative Volume values
+- Delete outlier row with 5641 Volume value
+- Correct DirectionDescription categorical inconsistencies (remove extra spaces)
+- Verify data completeness (check for any significant gaps) 
+    - Review data completeness by cosit by year
+    - Identify the most complete date ranges
+    - Filter down to just these cosits & years 
+
+## Cleaned Data Summary
+
+The cleaned data set is avalable here <a href="">leeds_cycle_counts_cleaned.csv</a>
+
+- There were 12 recording sites where # of days with complete data was > 80% every year for the 6 year period 2017-2023
+- One of these sites is Stanningley Road Cycle Superhighway (westbound) however the corresponding site at Stanningley Road Cycle Superhighway (eastbound) did not achieve the same level of yearly consistency
+- So the data is not skewed I decided to remove Stanningley Road Cycle Superhighway (westbound) leaving 11 recording sites in my cleaned data set
