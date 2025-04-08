@@ -29,67 +29,63 @@ I used AI tools (Claude.ai) to accelerate my workflow while applying my domain k
 - Duplicate & backup for reference
 
 ## Data cleaning
-
 ### Duplicates
-    - Issue - 19 exact duplicate rows found (0.0004%)
-    - Severity - low
-    - Action - delete duplicate rows
+- **Issue**: 19 exact duplicate rows found (0.0004%)
+- **Severity**: Low
+- **Action**: Delete duplicate rows
   
 ### Negative values
-    - Issue -  Volume has 25,438 negative values (0.5480% of total records) distributed over 2010 to 2021, with majority in 14-16 & 18-20 periods
-    - Severity - low
-    - Action - delete
+- **Issue**: Volume has 25,438 negative values (0.5480% of total records) distributed over 2010 to 2021, with majority in 14-16 & 18-20 periods
+- **Severity**: Low
+- **Action**: Delete
 
 ### Outliers
-    - Issue - Volume has ‘5641’ on 03/07/2014 22:00, next highest value is 415
-    - Severity - low
-    - Action - delete
+- **Issue**: Volume has '5641' on 03/07/2014 22:00, next highest value is 415
+- **Severity**: Low
+- **Action**: Delete
 
 ### Inconsistent category values
-
 #### LaneDescription 
-    - Issue - categorical inconsistencies which vary over time: Westbound, Eastbound, Southbound, Northbound, Cycle Path Southbound, Footpath Southbound, Footpath Northbound, Cycle Path Northbound, West 2, East 1, West 1, East 2, Eastbound, North Bound, South Bound, Cycle Path N, Footpath SB, Cycle Path S, Footpath NB 
-    - Severity - low
-    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+- **Issue**: Categorical inconsistencies which vary over time: Westbound, Eastbound, Southbound, Northbound, Cycle Path Southbound, Footpath Southbound, Footpath Northbound, Cycle Path Northbound, West 2, East 1, West 1, East 2, Eastbound, North Bound, South Bound, Cycle Path N, Footpath SB, Cycle Path S, Footpath NB 
+- **Severity**: Low
+- **Action**: Retain but don't use this column for analysis as it's not clear how to interpret these
     
 #### LaneDirection
-    - Issue - categorical number value (1-4) which doesn’t consistently correspond to direction description values e.g. 1 can be east or west
-    - Severity - low
-    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+- **Issue**: Categorical number value (1-4) which doesn't consistently correspond to direction description values e.g. 1 can be east or west
+- **Severity**: Low
+- **Action**: Retain but don't use this column for analysis as it's not clear how to interpret these
 
 #### DirectionDescription
-    - Issue - 4 inconsistent categorical values “North West” vs “Northwest”
-    - Severity - low
-    - Action - correct to be consistent 
+- **Issue**: 4 inconsistent categorical values "North West" vs "Northwest"
+- **Severity**: Low
+- **Action**: Correct to be consistent 
 
 #### Flag Text
-    - Issue - Multiple values which have changed over time
-    - Severity - as we are not looking at flow analysis it is low
-    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+- **Issue**: Multiple values which have changed over time
+- **Severity**: As we are not looking at flow analysis it is low
+- **Action**: Retain but don't use this column for analysis as it's not clear how to interpret these
 
 ### Missing Data
-
 #### Recording completeness by year varies between 4 to 15 years 
-    - Issue : # of recording sites has changed from 1 in 2010 to 27 in 2024 (down from 28 in 2023)
-    - Severity: high
-    - Action:  Verify data recording completeness & identify a consistent set of recording sites over a date range
+- **Issue**: # of recording sites has changed from 1 in 2010 to 27 in 2024 (down from 28 in 2023)
+- **Severity**: High
+- **Action**: Verify data recording completeness & identify a consistent set of recording sites over a date range
 
 #### LaneDescription & Flag Text
 - **Issue**: Missing 11% & 5% of values between 2010 to 2014
 - **Severity**: Low, not a key measure for the analysis
-- **Action**: Retain but don't use this column for analysis as it's not clear how to interpret these
+- **Action**: Retain but don't use this column for analysis as it's not clear how to interpret these 
 
 ### Format checks 
-    - Sdate - dd/mm/yyyy mm:hh validated date time format
-    - Cosit - validated against  supplied site list
-    - Period - validated number format, 1 unique non null value
-    - LaneNumber - validated number format, 4 unique non null values
-    - LaneDescription - validated text format, 19 unique non null values
-    - LaneDirection - validated number format, 4 unique non null values
-    - DirectionDescription - validated text format, 9 unique non null values
-    - Volume  - validated number format, 
-    - Flag Text - validated text format, 35 unique non null values, categorical inconsistencies
-
+- **Sdate**: dd/mm/yyyy mm:hh validated date time format
+- **Cosit**: Validated against supplied site list
+- **Period**: Validated number format, 1 unique non null value
+- **LaneNumber**: Validated number format, 4 unique non null values
+- **LaneDescription**: Validated text format, 19 unique non null values
+- **LaneDirection**: Validated number format, 4 unique non null values
+- **DirectionDescription**: Validated text format, 9 unique non null values
+- **Volume**: Validated number format
+- **Flag Text**: Validated text format, 35 unique non null values, categorical inconsistencies
 
 ## Data Cleaning Scripts
 
