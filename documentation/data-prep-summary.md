@@ -89,11 +89,11 @@ I used AI tools (Claude.ai) to accelerate my workflow while applying my domain k
     - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
 
 ### Duplicates
-- Issue - 19 exact duplicate rows found (0.0004%)
-- Severity - low
-- Action - delete duplicate rows
-- Script - <a href="../data-cleaning/cleaning-scripts/check_exact_duplicates.py">check_exact_duplicates.py</a>
-- Sample data - <a href="../data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv">Leeds-Cycle-Patterns-Analysis/data-cleaning/cleaned-data
+    - Issue - 19 exact duplicate rows found (0.0004%)
+    - Severity - low
+    - Action - delete duplicate rows
+    - Script - <a href="../data-cleaning/cleaning-scripts/check_exact_duplicates.py">check_exact_duplicates.py</a>
+    - Sample data - <a href="../data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv">Leeds-Cycle-Patterns-Analysis/data-cleaning/cleaned-data
 /leeds_cycle_counts_sample.csv</a>
 
 ## Actions Summary
