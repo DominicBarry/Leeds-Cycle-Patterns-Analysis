@@ -75,9 +75,9 @@ I used AI tools (Claude.ai) to accelerate my workflow while applying my domain k
     - Action:  Verify data recording completeness & identify a consistent set of recording sites over a date range
 
 #### LaneDescription & Flag Text
-    - Issue - missing 11% & 5% of values between 2010 to 2014
-    - Severity - low, not a key measure for the analysis
-    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these 
+- **Issue**: Missing 11% & 5% of values between 2010 to 2014
+- **Severity**: Low, not a key measure for the analysis
+- **Action**: Retain but don't use this column for analysis as it's not clear how to interpret these
 
 ### Format checks 
     - Sdate - dd/mm/yyyy mm:hh validated date time format
@@ -104,7 +104,7 @@ The following scripts were used in the data preparation process:
 
 ## Cleaned Data
 
-- [Cleaned Dataset](../data/cleeds_cycle_counts_cleaned.csv) - The full cleaned dataset
+- [Cleaned Dataset](../data/leeds_cycle_counts_cleaned.csv) - The full cleaned dataset
 
 ## Actions Summary
 
