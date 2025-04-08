@@ -98,6 +98,7 @@ The following scripts were used in the data preparation process:
 - [Remove Negative Volumes](../data-cleaning/cleaning-scripts/remove_negative_volumes.py) - Removes all rows with negative Volume values and saves to a new CSV file
 - [Analyze Volume Outliers](../data-cleaning/cleaning-scripts/analyze_volume_outliers.py) - Identifies outliers in Volume values and breaks down the results by year and calendar date
 - [Remove Specific Outliers](../data-cleaning/cleaning-scripts/remove_specific_outlier.py) - Removes the specific row with Volume value equal to the outlier_value
+- [Verfify LaneDescriptions](../data-cleaning/cleaning-scripts/verify_lane_descriptions.py) - Verifies that all values in LaneDescription column are strings, outputs unique values & counts
 
 
 ## Sample Data
