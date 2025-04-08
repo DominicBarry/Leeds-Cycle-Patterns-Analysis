@@ -99,8 +99,19 @@ I used AI tools (Claude.ai) to accelerate my workflow while applying my domain k
 - Issue - 19 exact duplicate rows found (0.0004%)
 - Severity - low
 - Action - delete duplicate rows
-- Script - <a href="../data-cleaning/cleaning-scripts/check_exact_duplicates.py">check_exact_duplicates.py</a>
+
 - Sample data - <a href="../data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv">leeds_cycle_counts_sample.csv</a>
+
+## Data Cleaning Scripts
+
+The following scripts were used in the data preparation process:
+
+- [Check Exact Duplicates](../data-cleaning/cleaning-scripts/check_exact_duplicates.py) - Checks for exact duplicate rows in the dataset (all columns identical)
+- [Remove Exact Duplicates](../data-cleaning/cleaning-scripts/remove_exact_duplicates.py) - Removes exact duplicate rows from the dataset and saves to a new CSV file
+
+## Sample Data
+
+- [Sample Cleaned Dataset (100 rows)]() - Representative sample of the full cleaned dataset
 
 ## Actions Summary
 
