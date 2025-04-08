@@ -1,4 +1,5 @@
 # Exclude specific data directories
+data-cleaning/
 tableau-workbook/
 ERD-python-script/
 
@@ -7,3 +8,7 @@ ERD-python-script/
 *.twb~
 .DS_Store
 .Rproj.user
+
+# Selectively allow specific files to track
+!data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv
+!data-cleaning/cleaning-scripts/check_exact_duplicates.py
