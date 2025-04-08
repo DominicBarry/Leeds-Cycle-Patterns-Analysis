@@ -1,12 +1,15 @@
 # Data preparation and cleaning
-  
-Data source: https://datamillnorth.org/dataset/e1dmk/leeds-annual-cycle-growth
+
+## Data Source & Summary
+
+[Leeds Annual Cycle Growth](https://datamillnorth.org/dataset/e1dmk/leeds-annual-cycle-growth)
 
 A dataset containing cycle counts from 28 recorders located around the Leeds district. Prior to June 2024 the dataset included information from 13 additional recorders within the West Yorkshire district.
 
 At the time of analysis the available data covered the period April 2010 to September 2024.
 
-I used AI tools (Claude.ai) to accelerate my workflow while applying my domain knowledge and analytical thinking.
+I used AI tools (Claude) to accelerate my workflow while applying my domain knowledge and analytical thinking.
+
 
 ## Data columns
 
@@ -104,4 +107,4 @@ The following scripts were used in the data preparation process:
 
 ## Summary & Caveats
 
-There were 12 recording sites where # of days with complete data was > 80% every year for the 6 year period 2017-2023. One of these sites is Stanningley Road Cycle Superhighway (westbound) however the corresponding site at Stanningley Road Cycle Superhighway (eastbound) did not achieve the same level of yearly consistency. So the data is not skewed I decided to remove Stanningley Road Cycle Superhighway (westbound) leaving 11 recording sites in my cleaned data set
+There were 12 recording sites where # of days with complete data was > 80% every year for the 6 year period 2017-2023. One of these sites is Stanningley Road Cycle Superhighway (westbound) however the corresponding site at Stanningley Road Cycle Superhighway (eastbound) did not achieve the same level of yearly consistency. So the data is not skewed I decided to remove Stanningley Road Cycle Superhighway (westbound) leaving 11 recording sites in my cleaned data set.
