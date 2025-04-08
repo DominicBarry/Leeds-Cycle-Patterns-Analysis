@@ -19,3 +19,4 @@ ERD-python-script/
 !data-cleaning/cleaning-scripts/remove_negative_volumes.py
 !data-cleaning/cleaning-scripts/analyze_volume_outliers.py
 !data-cleaning/cleaning-scripts/remove_specific_outlier.py
+!data-cleaning/cleaning-scripts/verify_lane_descriptions.py
