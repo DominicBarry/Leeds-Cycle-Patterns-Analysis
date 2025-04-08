@@ -33,14 +33,16 @@ I used AI tools (Claude.ai) to accelerate my workflow while applying my domain k
 ### Missing Data
 
 #### Recording completeness by year varies between 4 to 15 years 
-    - Issue : # of recording sites has changed from 1 in 2010 to 27 in 2024 (down from 28 in 2023)
-    - Severity: high
-    - Action:  Verify data recording completeness & identify a consistent set of recording sites over a date range
+
+- Issue : # of recording sites has changed from 1 in 2010 to 27 in 2024 (down from 28 in 2023)
+- Severity: high
+- Action:  Verify data recording completeness & identify a consistent set of recording sites over a date range
 
 #### LaneDescription & Flag Text
-    - Issue - missing 11% & 5% of values between 2010 to 2014
-    - Severity - low, not a key measure for the analysis
-    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these 
+
+- Issue - missing 11% & 5% of values between 2010 to 2014
+- Severity - low, not a key measure for the analysis
+- Action - retain but don’t use this column for analysis as it’s not clear how to interpret these 
 
 ### Format checks 
 
@@ -61,6 +63,7 @@ I used AI tools (Claude.ai) to accelerate my workflow while applying my domain k
 - Action - delete
 
 ### Outliers
+
 - Issue - Volume has ‘5641’ on 03/07/2014 22:00, next highest value is 415
 - Severity - low
 - Action - delete
@@ -69,32 +72,35 @@ I used AI tools (Claude.ai) to accelerate my workflow while applying my domain k
 
 #### LaneDescription 
 
-    - Issue - categorical inconsistencies which vary over time: Westbound, Eastbound, Southbound, Northbound, Cycle Path Southbound, Footpath Southbound, Footpath Northbound, Cycle Path Northbound, West 2, East 1, West 1, East 2, Eastbound, North Bound, South Bound, Cycle Path N, Footpath SB, Cycle Path S, Footpath NB 
-    - Severity - low
-    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+- Issue - categorical inconsistencies which vary over time: Westbound, Eastbound, Southbound, Northbound, Cycle Path Southbound, Footpath Southbound, Footpath Northbound, Cycle Path Northbound, West 2, East 1, West 1, East 2, Eastbound, North Bound, South Bound, Cycle Path N, Footpath SB, Cycle Path S, Footpath NB 
+- Severity - low
+- Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
     
 #### LaneDirection
-    - Issue - categorical number value (1-4) which doesn’t consistently correspond to direction description values e.g. 1 can be east or west
-    - Severity - low
-    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+
+- Issue - categorical number value (1-4) which doesn’t consistently correspond to direction description values e.g. 1 can be east or west
+- Severity - low
+- Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
 
 #### DirectionDescription
-    - Issue - 4 inconsistent categorical values “North West” vs “Northwest”
-    - Severity - low
-    - Action - correct to be consistent 
+
+- Issue - 4 inconsistent categorical values “North West” vs “Northwest”
+- Severity - low
+- Action - correct to be consistent 
 
 #### Flag Text
-    - Issue - Multiple values which have changed over time
-    - Severity - as we are not looking at flow analysis it is low
-    - Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
+
+- Issue - Multiple values which have changed over time
+- Severity - as we are not looking at flow analysis it is low
+- Action - retain but don’t use this column for analysis as it’s not clear how to interpret these
 
 ### Duplicates
-    - Issue - 19 exact duplicate rows found (0.0004%)
-    - Severity - low
-    - Action - delete duplicate rows
-    - Script - <a href="../data-cleaning/cleaning-scripts/check_exact_duplicates.py">check_exact_duplicates.py</a>
-    - Sample data - <a href="../data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv">Leeds-Cycle-Patterns-Analysis/data-cleaning/cleaned-data
-/leeds_cycle_counts_sample.csv</a>
+
+- Issue - 19 exact duplicate rows found (0.0004%)
+- Severity - low
+- Action - delete duplicate rows
+- Script - <a href="../data-cleaning/cleaning-scripts/check_exact_duplicates.py">check_exact_duplicates.py</a>
+- Sample data - <a href="../data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv">leeds_cycle_counts_sample.csv</a>
 
 ## Actions Summary
 
