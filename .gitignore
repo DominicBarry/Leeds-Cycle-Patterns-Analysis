@@ -1,9 +1,9 @@
-# Exclude specific data directories
+# Exclude specific directories
 data-cleaning/
 tableau-workbook/
 ERD-python-script/
 
-# Exclude Tableau temp files
+# Exclude Tableau temp files, macOS and R-specific hidden files
 *.twbr
 *.twb~
 .DS_Store
@@ -12,3 +12,4 @@ ERD-python-script/
 # Selectively allow specific files to track
 !data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv
 !data-cleaning/cleaning-scripts/check_exact_duplicates.py
+!data-cleaning/cleaning-scripts/remove_exact_duplicates.py
