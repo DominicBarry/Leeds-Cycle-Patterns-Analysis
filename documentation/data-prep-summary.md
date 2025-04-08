@@ -21,7 +21,7 @@ The source dataset [Leeds Annual Cycle Growth](https://datamillnorth.org/dataset
 
 ## Preparation
 
-- Download 64 csv files the period Jan 2010 to Oct 2024
+- Download 64 csv files the period Jan 2010 to Sep 2024
 - Concatenate csv files to combined_cycle_counts.csv (5801724 rows)
 - Filter out 13 additional recorders within the West Yorkshire district (1159580 rows, 19.99% of data)
 - Save filtered file as leeds_cycle_counts.csv (4642144 rows)
