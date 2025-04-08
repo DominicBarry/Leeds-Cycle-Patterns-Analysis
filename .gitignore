@@ -13,3 +13,8 @@ ERD-python-script/
 !data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv
 !data-cleaning/cleaning-scripts/check_exact_duplicates.py
 !data-cleaning/cleaning-scripts/remove_exact_duplicates.py
+!data-cleaning/cleaning-scripts/verify_volume_values.py
+!data-cleaning/cleaning-scripts/analyze_volume_statistics.py
+!data-cleaning/cleaning-scripts/analyze_volume_statistics.py
+!data-cleaning/cleaning-scripts/analyze_negative_volumes_by_year.py
+!data-cleaning/cleaning-scripts/remove_negative_volumes.py
