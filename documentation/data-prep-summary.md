@@ -102,20 +102,6 @@ The following scripts were used in the data preparation process:
 
 - [Cleaned Dataset](../data/leeds_cycle_counts_cleaned.csv) - The full cleaned dataset
 
-## Actions Summary
+## Summary & Caveats
 
-- Remove 19 exact duplicate rows
-- Delete rows with negative Volume values
-- Delete outlier row with 5641 Volume value
-- Correct DirectionDescription categorical inconsistencies (remove extra spaces)
-- Verify data completeness (check for any significant gaps) 
-    - Review data completeness by cosit by year
-    - Identify the most complete date ranges
-    - Filter down to just these cosits & years
-
-
-## Cleaned Data Summary
-
-- There were 12 recording sites where # of days with complete data was > 80% every year for the 6 year period 2017-2023
-- One of these sites is Stanningley Road Cycle Superhighway (westbound) however the corresponding site at Stanningley Road Cycle Superhighway (eastbound) did not achieve the same level of yearly consistency
-- So the data is not skewed I decided to remove Stanningley Road Cycle Superhighway (westbound) leaving 11 recording sites in my cleaned data set
+There were 12 recording sites where # of days with complete data was > 80% every year for the 6 year period 2017-2023. One of these sites is Stanningley Road Cycle Superhighway (westbound) however the corresponding site at Stanningley Road Cycle Superhighway (eastbound) did not achieve the same level of yearly consistency. So the data is not skewed I decided to remove Stanningley Road Cycle Superhighway (westbound) leaving 11 recording sites in my cleaned data set
