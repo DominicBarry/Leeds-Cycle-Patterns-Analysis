@@ -92,6 +92,10 @@ The following scripts were used in the data preparation process:
 
 - [Check Exact Duplicates](../data-cleaning/cleaning-scripts/check_exact_duplicates.py) - Checks for exact duplicate rows in the dataset (all columns identical)
 - [Remove Exact Duplicates](../data-cleaning/cleaning-scripts/remove_exact_duplicates.py) - Removes exact duplicate rows from the dataset and saves to a new CSV file
+- [Verify Volume Values](../data-cleaning/cleaning-scripts/verify_volume_values.py) - Verifies that Volume column contains only numeric values and shows top/bottom 5 values with counts
+- [Analyze Volume Statistics](../data-cleaning/cleaning-scripts/analyze_volume_statistics.py) - Generates comprehensive summary statistics for the Volume column
+- [Analyze Negative Volumes by Year](../data-cleaning/cleaning-scripts/analyze_negative_volumes_by_year.py) - Analyzes negative Volume values and breaks down the results by year
+- [Remove Negative Volumes](../data-cleaning/cleaning-scripts/remove_negative_volumes.py) - Removes all rows with negative Volume values and saves to a new CSV file
 
 ## Sample Data
 
