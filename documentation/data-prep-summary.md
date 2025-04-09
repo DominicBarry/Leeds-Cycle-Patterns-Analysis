@@ -1,6 +1,6 @@
 # Data preparation and cleaning
 
-## Data Source & Summary
+## Data source & summary
 
 The source dataset [Leeds Annual Cycle Growth](https://datamillnorth.org/dataset/e1dmk/leeds-annual-cycle-growth) contains cycle counts from 28 recorders located around the Leeds district. Prior to June 2024 the dataset included information from 13 additional recorders within the West Yorkshire district. At the time of analysis the available data covered the period April 2010 to September 2024. I used AI tools (Claude) to accelerate my workflow while applying my domain knowledge and analytical thinking.
 
@@ -105,6 +105,12 @@ A selection of scripts I created with claude.ai & used in the data preparation p
 ## Sample Data
 
 - [Sample Cleaned Dataset (100 rows)](../data-cleaning/cleaned-data/leeds_cycle_counts_sample.csv) - Representative sample of the full cleaned dataset
+
+## Recording Completeness
+
+A table showing recording completeness for each year and Cosit is shown below, highlighting the 12 sites & 6 consectuive years in yellow where daily recoring completeness was higher than 80%.
+
+
 
 ## Summary & Caveats
 
