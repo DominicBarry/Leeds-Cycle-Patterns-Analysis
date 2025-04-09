@@ -1,6 +1,6 @@
 # Leeds Cycle Patterns Analysis
 
-This analysis examines cycling patterns across Leeds to help understand infrastructure usage, inform future planning decisions, and track changes in sustainable transportation adoption over time. It features an analysis of ride volumes during 2018-2023 across 11 recording sites based on 1.2 million data points &amp; +80% daily completeness over a continuous 6 year period.
+This analysis examines cycling patterns across Leeds to help understand infrastructure usage, inform future planning decisions, and track changes in sustainable transportation adoption over time. It features an analysis of ride volumes during 2018-2023 across 11 recording sites based on 1.2 million data points &amp; +80% daily completeness over a continuous 6 year period. It was completed using python, pandas, tableau & google sheets.
 
 ## Data Structure
 
@@ -84,7 +84,7 @@ Whilst the analysis shows how ride volume has changed over the 6 year period 201
 
 ### Leeds Cycling Infrastructure Changes (2018-2023)
 
-This document summarizes cycling infrastructure improvements in Leeds City Centre between 2018-2023, focusing on locations with cycle counter sites.
+The following summarizes cycling infrastructure improvements in Leeds City Centre between 2018-2023, focusing on locations with cycle counter sites.
 
 #### A64 York Road Cycle Superhighway (Burmantofts & Killingbeck)
 
