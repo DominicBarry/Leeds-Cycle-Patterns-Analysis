@@ -19,11 +19,10 @@ Data was cleaned & prepared for analysis as detailed here [here](documentation/d
 #### 1. Overview Dashboard - The Entry Point
 
 ##### Key Metrics (BANs)
-- **Total rides** across 2018-2023
-- **Year-over-Year growth rates** (bar chart with color coding for negative values)
-- **Peak hour** by ride volume
-- **Peak day** by ride volume
-- **Peak month** by ride volume
+- ****Total rides**** across 2018-2023
+- ****Peak month**** by ride volume
+- ****Peak day**** by ride volume
+- ****Peak hour**** by ride volume
 
 ##### Key Visualizations
 - **City map** showing the 11 recording sites with size/color coding for volume
