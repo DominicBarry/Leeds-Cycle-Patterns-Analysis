@@ -2,10 +2,7 @@
 
 ## Data Source & Summary
 
-
-
 The source dataset [Leeds Annual Cycle Growth](https://datamillnorth.org/dataset/e1dmk/leeds-annual-cycle-growth) contains cycle counts from 28 recorders located around the Leeds district. Prior to June 2024 the dataset included information from 13 additional recorders within the West Yorkshire district. At the time of analysis the available data covered the period April 2010 to September 2024. I used AI tools (Claude) to accelerate my workflow while applying my domain knowledge and analytical thinking.
-
 
 ## Data columns
 
