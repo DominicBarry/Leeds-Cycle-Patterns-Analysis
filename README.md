@@ -80,4 +80,85 @@ The Tableau dashboard is available to view [here](https://public.tableau.com/app
 
 ## Caveats & Assumptions
 
-xxx
+Whilst the analysis shows how ride volume has changed over the 6 year period 2018 to 2023 it is important to conisder the cycling infrastructure improvements in Leeds City Centre duringh this period, as detailed below.
+
+### Leeds Cycling Infrastructure Changes (2018-2023)
+
+This document summarizes cycling infrastructure improvements in Leeds City Centre between 2018-2023, focusing on locations with cycle counter sites.
+
+#### A64 York Road Cycle Superhighway (Burmantofts & Killingbeck)
+
+**Timeline**: 2018-2020
+
+**Improvements**:
+- Protected cycle lanes in both directions
+- Junction improvements 
+- Advanced stop lines
+- Part of the original City Connect Route 1
+
+*Counter locations: Burmantofts (eastbound & westbound), Killingbeck (eastbound & westbound)*
+
+#### A647 Bradford Road Cycle Superhighway
+
+**Timeline**: 2018-2020
+
+**Improvements**:
+- Segregated cycle lanes in both directions
+- Bus stop bypasses
+- Junction improvements
+- Safer cycling connection between Leeds and Bradford
+- Early phase of the City Connect program
+
+*Counter locations: A647 Bradford Road (eastbound & westbound)*
+
+#### Regent Street Corridor
+
+**Timeline**: 2019-2021
+
+**Improvements**:
+- New crossing facilities
+- Cycle-specific signals
+- Improved connections to the inner ring road
+- Linked to Sheepscar junction reconfiguration (2018-2020)
+
+*Counter locations: Regent Street (south of Hope Road), Regent Street (south of Gower Street)*
+
+#### Meanwood Road/Sheepscar Area
+
+**Timeline**: 2018-2023
+
+**Improvements**:
+- Sheepscar junction major reconfiguration with protected cycling infrastructure (2018-2020)
+- Mabgate corridor connected improvements with cycle lanes (2021-2023)
+- Traffic calming measures
+
+*Counter location: Meanwood Road Cycle Counter Sheepscar*
+
+#### Armley Road Cycle Superhighway
+
+**Timeline**: 2018-2020
+
+**Improvements**:
+- Protected cycle lanes
+- Crossing improvements
+- Junction redesigns
+- Part of the western extension of City Connect Route 1
+
+*Counter location: Armley Road Cycle Superhighway*
+
+#### Wellington Road Cycle Path
+
+**Timeline**: 2018-2020
+
+**Improvements**:
+- Wellington Street corridor with protected cycle lanes
+- Junction improvements
+- Advanced stop lines
+- Whitehall Road connection providing linkage with segregated cycle track
+- Improved crossings
+
+*Counter location: Wellington Road Cycle Path*
+
+---
+
+These improvements were part of Leeds City Council's broader sustainable transport strategy, with a focus on creating safer cycling infrastructure through protected lanes, improved junctions, and better connections across the city center.
