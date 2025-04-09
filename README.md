@@ -64,9 +64,7 @@ Data was cleaned & prepared for analysis as detailed here [here](documentation/d
 
 ## Key findings
 
-- **Peak Month/Day/Hour** is September
-- **Peak Day**: Tuesday
-- **Peak Hour**: 5:00PM-6:00PM
+- **Peak Month** is September, **Peak Day** is Tuesday & **Peak Hour** is 5:00PM-6:00PM
 - **Weekday peak hour** is 5:00PM-6:00PM with 361K rides, 613% higher than the **weekend peak hour** 2:00PM-3:00PM with 51K rides
 - **Armley Road** is the most comuter heavy site with 85% of all rides occuring on weekdays
 - **A64 Killingbeck East** is the most weekend active site with 20% of all rides occuring on weekends
