@@ -159,6 +159,4 @@ The following summarizes cycling infrastructure improvements in Leeds City Centr
 
 *Counter location: Wellington Road Cycle Path*
 
----
-
 These improvements were part of Leeds City Council's broader sustainable transport strategy, with a focus on creating safer cycling infrastructure through protected lanes, improved junctions, and better connections across the city center.
