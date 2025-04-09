@@ -33,44 +33,20 @@ Data was cleaned & prepared for analysis as detailed here [here](documentation/d
 - Volume by **day of week** (bar chart)
 - Volume by **hour** (line chart)
 
----
-
 ### 2. Temporal Patterns Dashboard - Drilling Deeper
 
 #### Time of Day Analysis
-- **Hourly patterns** with toggles between weekday/weekend
-  - Line chart showing hourly patterns with ability to filter weekend/weekday
+- **Hourly patterns** showing weekday/weekend (line chart)
 
 #### Site Usage Patterns
-- **Site-specific Weekday/Weekend Ratio Chart**:
-  - X-axis: Recording sites
-  - Y-axis: Percentage of total rides
-  - Stacked bars showing weekday percentage vs weekend percentage
-  - Sorted by weekday percentage to highlight commuter vs. recreational patterns
+- **Site-specific Weekday/Weekend Ratio Chart** stacked bars showing weekday percentage vs weekend percentage
 
 #### Trend Analysis
-- **Day of week trend over time heat map**:
-  - X-axis: Years (2018-2023)
-  - Y-axis: Days of the week
-  - Color intensity: Volume with "% of Yearly Total by Day" in tooltip
-
-- **Monthly/seasonal patterns**:
-  - Line chart with one line per year (2018-2023)
-  - Shows both seasonal cycling patterns and year-over-year comparison
+- **Day of week trend over time heat map** showing daily cycling patterns by year
 
 #### Heatmap Visualizations
-- **Time-of-day by day-of-week heat map**:
-  - X-axis: Hour of day (0-23)
-  - Y-axis: Day of week
-  - Color intensity: Volume
-  - Reveals daily and hourly cycling patterns in a single visualization
-
-- **Time-of-day by location heat map**:
-  - X-axis: Hour of day (0-23)
-  - Y-axis: Recording sites
-  - Color intensity: Volume
-  - Toggle for weekday vs weekend view
-  - Shows which sites are busiest during different times of day
+- **Time-of-day by day-of-week heat map** showing hourly cycling patterns byt day of week
+- **Time-of-day by location heat map** showing which sites are busiest during different times of day
 
 ---
 
