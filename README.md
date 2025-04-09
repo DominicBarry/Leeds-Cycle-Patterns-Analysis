@@ -48,28 +48,19 @@ Data was cleaned & prepared for analysis as detailed here [here](documentation/d
 - **Time-of-day by day-of-week heat map** showing hourly cycling patterns byt day of week
 - **Time-of-day by location heat map** showing which sites are busiest during different times of day
 
----
-
 ### 3. COVID Impact Analysis Dashboard
 
-#### Pandemic Period Comparison
-- **Before/during/after comparison** with clear visual breaks:
-  - Time series comparison showing pre-COVID (2018-2019), during COVID (2020-2021), and post-COVID (2022-2023)
-
 #### Location Impact Analysis
-- **Site-specific COVID impact**:
-  - Bar chart showing percentage change in volume by site during COVID vs. pre-COVID
-  - Highlights which sites saw biggest decreases or increases
+- **Site-specific COVID impact** showing percentage change in volume by site pre/during/post COVID (bar chart)
+    
+#### Pandemic Period Comparison
+- **Before/during/after comparison** showing pre(18-19), during(20-21), and post (22-23) (bar chart)
 
 #### Recovery Tracking
-- **Recovery patterns**:
-  - Line chart showing monthly volume indexed to pre-COVID baseline (100%)
-  - Shows which sites recovered fastest and to what extent
+- **Recovery patterns** showing which sites recovered and to what extent (bar chart)
 
 #### Behavioral Change Analysis
-- **Behavioral shifts**:
-  - Comparison of weekend vs. weekday riding patterns before and after COVID
-  - Shows whether COVID permanently altered cycling habits
+- **Behavioral shifts** comparison of weekend vs. weekday riding patterns pre/during/post COVID (bar chart)
 
 ## Key findings
 
