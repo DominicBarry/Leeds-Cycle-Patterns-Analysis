@@ -20,13 +20,10 @@ Three dashboards created within Tableau:
 
 - Key metrics at the top:
   - Total rides across 2018-2023
-  - Year-over-Year growth rates (bar chart with color coding for negative values)
-  - Peak hour by ride volume
-  - Peak day by ride volume
   - Peak month by ride volume
-
-
-City map showing the 11 recording sites with size/color coding for volume
+  - Peak day by ride volume
+  - Peak hour by ride volume
+- City map showing the 11 recording sites with size/color coding for volume
 Primary time series showing overall cycling volume 2018-2023 with COVID periods clearly marked (2020-2021)
 
 Custom y-axis range (with note explaining non-zero baseline)
