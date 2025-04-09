@@ -102,6 +102,8 @@ The following scripts were created with claude.ai used in the data preparation p
 - [Verify Lane Direction](../data-cleaning/cleaning-scripts/verify_lane_direction.py) - Verifies that LaneDirection column contains only numbers and identifies all unique values
 - [Verify DirectionDescription](../data-cleaning/cleaning-scripts/verify_direction_description.py) - Verifies that DirectionDescription column contains only string values and identifies all unique values
 - [Verify Flag Text](../data-cleaning/cleaning-scripts/verify_flag_text.py) - Verifies that Flag Text column contains only string values and shows all unique values
+- [Recording Completeness](../data-cleaning/cleaning-scripts/recording_completeness.py) - Analyzes the recording completeness by calculating, for each year and Cosit, the percentage of days where data was recorded for all 24 hours
+- [](../data-cleaning/cleaning-scripts/) -
 
 ## Sample Data
 
