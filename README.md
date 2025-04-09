@@ -64,11 +64,21 @@ Data was cleaned & prepared for analysis as detailed here [here](documentation/d
 
 ## Key findings
 
-xxx
+- **Peak Month/Day/Hour** is September
+- **Peak Day**: Tuesday
+- **Peak Hour**: 5:00PM-6:00PM
+- **Weekday peak hour** is 5:00PM-6:00PM with 361K rides, 613% higher than the **weekend peak hour** 2:00PM-3:00PM with 51K rides
+- **Armley Road** is the most comuter heavy site with 85% of all rides occuring on weekdays
+- **A64 Killingbeck East** is the most weekend active site with 20% of all rides occuring on weekends
+- **Regent Street Gower Street**: is the most active site at 5:00PM-6:00PM with 83K rides, 12.6% of location total
+- **Regent Street Gower Street** saw the largest decrease in ride volume during COVID with a drop of 24.2%
+- **Eight out of eleven** recording sites have seen ride volume fully recover post COVID
+- **Weekday post COVID ride volume is up 3.7%** whilst **weekend is up 41.8%** compared to pre COVID levels
+- **A64 Burmantofts West** saw the largest recovery with post COVID ride volume up 155% vs. pre COVID levels
 
 ## How to view the dashboard
 
-xx
+The Tableau dashboard is available to view [here](https://public.tableau.com/app/profile/dom.barry/viz/LeedsCyclePatternsAnalysis/Overview)
 
 ## Caveats & Assumptions
 
