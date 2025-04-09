@@ -1,6 +1,6 @@
 # Leeds Cycle Patterns Analysis
 
-This analysis examines cycling patterns across Leeds to help understand infrastructure usage, inform future planning decisions, and track changes in sustainable transportation adoption over time. It features an analysis of ride volumes during 2018-2023 across 11 recording sites based on 1.2 million data points &amp; +80% daily completeness over a continuous 6 year period. It was completed using python, pandas, tableau, r studio & google sheets.
+This analysis examines cycling patterns across Leeds to help understand infrastructure usage, inform future planning decisions, and track changes in sustainable transportation adoption over time. It features an analysis of ride volumes during 2018-2023 across 11 recording sites based on 1.2 million data points &amp; +80% daily completeness over a continuous 6 year period. It was completed using Python, pandas, Tableau, R Studio & Google Sheets.
 
 ## Data Structure
 
