@@ -80,7 +80,7 @@ The Tableau dashboard is available to view [here](https://public.tableau.com/app
 
 ## Caveats & Assumptions
 
-Whilst the analysis shows how ride volume has changed over the 6 year period 2018 to 2023 it is important to conisder the cycling infrastructure improvements in Leeds City Centre duringh this period, as detailed below.
+Whilst the analysis shows how ride volume has changed over the 6 year period 2018 to 2023 it is important to conisder them within the context of cycling infrastructure improvements in Leeds City Centre, as detailed below.
 
 ### Leeds Cycling Infrastructure Changes (2018-2023)
 
