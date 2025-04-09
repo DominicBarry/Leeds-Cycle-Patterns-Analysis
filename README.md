@@ -1,5 +1,6 @@
-# Leeds-Cycle-Patterns-Analysis
-Analysis of ride volumes 2018-23 across 11 recording sites based on 1.2 million data points &amp; +80% daily completeness over a continuous 6 year period.
+# Leeds Cycle Patterns Analysis
+
+This analysis examines cycling patterns across Leeds to help understand infrastructure usage, inform future planning decisions, and track changes in sustainable transportation adoption over time. It features an analysis of ride volumes 2018-23 across 11 recording sites based on 1.2 million data points &amp; +80% daily completeness over a continuous 6 year period.
 
 ## Data Structure
 
