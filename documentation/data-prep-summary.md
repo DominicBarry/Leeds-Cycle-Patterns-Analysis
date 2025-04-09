@@ -108,7 +108,7 @@ A selection of scripts I created with claude.ai & used in the data preparation p
 
 ## Recording Completeness
 
-A table showing recording completeness for each year and cosit is shown below, highlighting the 12 sites & 6 consectuive years in yellow where daily recoring completeness was higher than 80%.
+A table showing recording completeness for each year and cosit is shown below, highlighting the 12 sites & 6 consecutive years in yellow where daily recording completeness was higher than 80%.
 
 ![Recording Completeness by year and cosit](../visualizations/recording_completeness_by_year.png)
 
