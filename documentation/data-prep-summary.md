@@ -88,7 +88,7 @@ The source dataset [Leeds Annual Cycle Growth](https://datamillnorth.org/dataset
 
 ## Data Cleaning Scripts
 
-The following scripts were created with claude.ai used in the data preparation process:
+A selection of scripts I created with claude.ai & used in the data preparation process are listed below:
 
 - [Check Exact Duplicates](../data-cleaning/cleaning-scripts/check_exact_duplicates.py) - Checks for exact duplicate rows in the dataset (all columns identical)
 - [Remove Exact Duplicates](../data-cleaning/cleaning-scripts/remove_exact_duplicates.py) - Removes exact duplicate rows from the dataset and saves to a new CSV file
@@ -107,11 +107,7 @@ The following scripts were created with claude.ai used in the data preparation p
 
 ## Sample Data
 
-- [Sample Cleaned Dataset (100 rows)]() - Representative sample of the full cleaned dataset
-
-## Cleaned Data
-
-- [Cleaned Dataset](../data/leeds_cycle_counts_cleaned.csv) - The full cleaned dataset
+- [Sample Cleaned Dataset (100 rows)](../data/leeds_cycle_counts_sample.csv) - Representative sample of the full cleaned dataset
 
 ## Summary & Caveats
 
