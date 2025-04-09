@@ -104,7 +104,7 @@ A selection of scripts I created with claude.ai & used in the data preparation p
 
 ## Sample Data
 
-- [Sample Cleaned Dataset (100 rows)](../data/leeds_cycle_counts_sample.csv) - Representative sample of the full cleaned dataset
+- [Sample Cleaned Dataset (100 rows)](data/leeds_cycle_counts_sample.csv) - Representative sample of the full cleaned dataset
 
 ## Summary & Caveats
 
