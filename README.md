@@ -28,7 +28,7 @@ Data was cleaned & prepared for analysis as detailed here [here](documentation/d
 - **City map** showing the 11 recording sites with size/color coding for volume
 - **Primary time series** showing overall cycling volume 2018-2023 with COVID periods clearly marked (2020-2021)
 
-#### Temporal Patterns (Small Multiples)
+#### Temporal Patterns
 - Volume by **month** (bar chart)
 - Volume by **day of week** (bar chart)
 - Volume by **hour** (line chart)
