@@ -76,7 +76,16 @@ Data was cleaned & prepared for analysis as detailed [here](documentation/data-p
 
 ## How to view the dashboard
 
-The Tableau dashboard is available to view [here](https://public.tableau.com/app/profile/dom.barry/viz/LeedsCyclePatternsAnalysis/Overview)
+![Cycling Analysis Dashboard](visualizations/overview.png)
+*Dashboard 1: Overview*
+
+![Weather Analysis Dashboard](visualizations/Temporal-Analysis.png)
+*Dashboard 2: Temporal Analysis*
+
+![Weather Analysis Dashboard](visualizations/COVID-Impact-Analysis.png)
+*Dashboard 3: COVID Impact Analysis*
+
+[View Interactive Dashboards on Tableau Public ↗](https://public.tableau.com/app/profile/dom.barry/viz/LeedsCyclePatternsAnalysis/Overview)
 
 ## Caveats & Assumptions
 
