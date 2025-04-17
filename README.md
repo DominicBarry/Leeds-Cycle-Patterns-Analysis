@@ -76,7 +76,7 @@ Data was cleaned & prepared for analysis as detailed [here](documentation/data-p
 
 ## How to view the dashboard
 
-![Cycling Analysis Dashboard](visualizations/overview.png)
+![Cycling Analysis Dashboard](visualizations/Overview.png)
 *Dashboard 1: Overview*
 
 ![Weather Analysis Dashboard](visualizations/Temporal-Analysis.png)
