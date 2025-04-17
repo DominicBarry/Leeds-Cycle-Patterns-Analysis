@@ -12,7 +12,7 @@ The underlying data was sourced from <a href="https://datamillnorth.org/dataset/
 
 ## Methodology
 
-Data was cleaned & prepared for analysis as detailed here [here](documentation/data-prep-summary.md). It was then imported into Tableau & augmented with calculated fields to support further analysis.
+Data was cleaned & prepared for analysis as detailed [here](documentation/data-prep-summary.md). It was then imported into Tableau & augmented with calculated fields to support further analysis.
 
 ## Dashboard Structure
 
