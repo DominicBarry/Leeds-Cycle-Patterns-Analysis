@@ -1,6 +1,8 @@
 # Leeds Cycle Patterns Analysis
 
-This analysis examines cycling patterns across Leeds to help understand infrastructure usage, inform future planning decisions, and track changes in sustainable transportation adoption over time. It features an analysis of ride volumes during 2018-2023 across 11 recording sites based on 1.2 million data points &amp; +80% daily completeness over a continuous 6 year period. It was completed using Python, pandas, Tableau, R Studio & Google Sheets.
+How has cycling in Leeds changed since COVID? This project analyses 1.2 million readings from 11 Leeds cycle counters (2018-2023), selected because each recorded full 24-hour data on more than 80% of days in every year. I compared ride volumes by site, day of the week and hour, before, during and after COVID.
+
+Tools: Python, pandas, Tableau, RStudio and Google Sheets. I used Claude to help write the Python scripts, which I ran locally in RStudio.
 
 ## Data Structure
 
@@ -45,7 +47,7 @@ Data was cleaned & prepared for analysis as detailed [here](documentation/data-p
 - **Day of week trend over time heat map** showing daily cycling patterns by year
 
 #### Heatmap Visualizations
-- **Time-of-day by day-of-week heat map** showing hourly cycling patterns byt day of week
+- **Time-of-day by day-of-week heat map** showing hourly cycling patterns by day of week
 - **Time-of-day by location heat map** showing which sites are busiest during different times of day
 
 ### 3. COVID Impact Analysis Dashboard
@@ -66,30 +68,30 @@ Data was cleaned & prepared for analysis as detailed [here](documentation/data-p
 
 - **Peak Month** is September, **Peak Day** is Tuesday & **Peak Hour** is 5:00PM-6:00PM
 - **Weekday peak hour** is 5:00PM-6:00PM with 361K rides, 613% higher than the **weekend peak hour** 2:00PM-3:00PM with 51K rides
-- **Armley Road** is the most comuter heavy site with 85% of all rides occuring on weekdays
-- **A64 Killingbeck East** is the most weekend active site with 20% of all rides occuring on weekends
-- **Regent Street Gower Street**: is the most active site at 5:00PM-6:00PM with 83K rides, 12.6% of location total
+- **Armley Road** is the most commuter-heavy site, with 85% of all rides occurring on weekdays
+- **A64 Killingbeck East** is the most weekend-active site, with 20% of all rides occurring on weekends
+- **Regent Street Gower Street** is the most active site at 5:00PM-6:00PM with 83K rides, 12.6% of location total
 - **Regent Street Gower Street** saw the largest decrease in ride volume during COVID with a drop of 24.2%
-- **Eight out of eleven** recording sites have seen ride volume fully recover post COVID
-- **Weekday post COVID ride volume is up 3.7%** whilst **weekend is up 41.8%** compared to pre COVID levels
-- **A64 Burmantofts West** saw the largest recovery with post COVID ride volume up 155% vs. pre COVID levels
+- **Eight out of eleven** recording sites have seen ride volume fully recover post-COVID
+- **Weekday post-COVID ride volume is up 3.7%**, whilst **weekend is up 41.8%** compared to pre-COVID levels
+- **A64 Burmantofts West** saw the largest recovery with post-COVID ride volume up 155% vs. pre-COVID levels
 
 ## How to view the dashboard
 
 ![Cycling Analysis Dashboard](visualizations/Overview.png)
 *Dashboard 1: Overview*
 
-![Weather Analysis Dashboard](visualizations/Temporal-Analysis.png)
+![Temporal Analysis Dashboard](visualizations/Temporal-Analysis.png)
 *Dashboard 2: Temporal Analysis*
 
-![Weather Analysis Dashboard](visualizations/COVID-Impact-Analysis.png)
+![COVID Impact Analysis Dashboard](visualizations/COVID-Impact-Analysis.png)
 *Dashboard 3: COVID Impact Analysis*
 
 [View Interactive Dashboards on Tableau Public ↗](https://public.tableau.com/app/profile/dom.barry/viz/LeedsCyclePatternsAnalysis/Overview)
 
 ## Caveats & Assumptions
 
-Whilst the analysis shows how ride volume has changed over the 6 year period 2018 to 2023 it is important to conisder them within the context of cycling infrastructure improvements in Leeds City Centre, as detailed below.
+Whilst the analysis shows how ride volume has changed over the six-year period 2018 to 2023, it is important to consider the figures within the context of cycling infrastructure improvements in Leeds City Centre, as detailed below.
 
 ### Leeds Cycling Infrastructure Changes (2018-2023)
 
